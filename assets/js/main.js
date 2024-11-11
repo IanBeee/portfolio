@@ -234,8 +234,8 @@ self.addEventListener('install', (event) => {
       return cache.addAll([
         '/',
         '/index.html',
-        '/style.css',
-        '/script.js'
+        '/main.css',
+        '/main.js'
       ]);
     })
   );
